@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID">
+	<display-name>DemoCom</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	  <servlet>
+  	<servlet-name>Dologin1</servlet-name>
+  	<servlet-class>com.servlet.Dologin1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Dologin1</servlet-name>
+  	<url-pattern>/Dologin1</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>SM</servlet-name>
+  	<servlet-class>com.servlet.SM</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SM</servlet-name>
+  	<url-pattern>/SM</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  	<servlet-name>PM</servlet-name>
+  	<servlet-class>com.servlet.PM</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PM</servlet-name>
+  	<url-pattern>/PM</url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+  	<servlet-name>AddPM</servlet-name>
+  	<servlet-class>com.servlet.AddPM</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddPM</servlet-name>
+  	<url-pattern>/AddPM</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ADDstaff</servlet-name>
+  	<servlet-class>com.servlet.ADDstaff</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ADDstaff</servlet-name>
+  	<url-pattern>/ADDstaff</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
